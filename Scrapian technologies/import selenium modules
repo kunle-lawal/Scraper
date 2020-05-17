@@ -1,0 +1,52 @@
+import selenium modules
+
+import BeautifulSoup libraries.
+
+import datetime library
+import csv library
+
+declear chrome window variables
+
+set the chrome window options.
+set window to 'headless'
+set window size to full.
+set chrome location
+
+set driver to chrome options and location 
+
+declear website we are scraping
+
+create array to store information we are scraping.
+
+set the information array to controled array.
+
+declear funtion for scraping
+	
+	get the xpath of each parameters given
+
+	append information to 3D controled array.
+
+	loop through 3D controled array and append information to appropriate array
+
+declear funtion for clicking dom elements on a page
+
+declear function for equalizing database. 
+	
+	loop through 3D array and add "n/a" where info is not given.
+
+declear function to store information into and excel sheet. 
+
+	loop through 3D controled array and write information to the excel sheet.
+
+declear main function 
+	set 3D controled array to a global vairable.
+
+	set xpath of job information to variable.
+
+	run the driver to open the web page
+
+	run all appropriate functions.
+
+	print(done)  
+
+if call is main() call main()
